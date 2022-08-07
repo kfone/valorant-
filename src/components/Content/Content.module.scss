@@ -1,0 +1,82 @@
+.content {
+    position: relative;
+    height: 1450px;
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main_content {
+        position: relative;
+        z-index: 5;
+        display: flex;
+        height: 1150px;
+        padding-top: 110px;
+
+        .title {
+            font-family: 'Druk', sans-serif;
+            font-size: 156px;
+            letter-spacing: 0.1em;
+            line-height: 204px;
+            text-align: center;
+            -webkit-text-stroke: 3px #fff;
+            color: #0000;
+            transform: rotate(90deg);
+            display: block;
+            position: relative;
+            top: 410px;
+            left: -172px;
+        }
+
+        .left_content {
+            align-items: flex-start;
+            display: flex;
+            width: 500px;
+        }
+
+        .right_content {
+            display: flex;
+        }
+    }
+
+    .more_skills {
+        display: flex;
+    }
+
+    .more {
+    width: 220px;
+    height: 248px;
+    background-color: #fff;
+    z-index: 4;
+    position: relative;
+    left: -100px;
+    border: 2px solid #000;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    }
+
+    .bg_image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../../../public/image/background.png');
+    height: 1450px;
+    width: 100%;
+    z-index: 3;
+    opacity: 0.6;
+    }
+
+    .bg_color {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #FF4656;
+        height: 1450px;
+        width: 100%;
+        z-index: 2;
+    }
+}

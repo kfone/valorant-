@@ -1,0 +1,63 @@
+.wrapper {
+    width: 724px;
+    height: 248px;
+    background-color: #fff;
+    z-index: 4;
+    position: relative;
+    left: -100px;
+    border: 2px solid #000;
+
+    &:not(:first-child) {
+        margin-left: 80px;
+    }
+
+    .bg {
+        position: absolute;
+        top: 66px;
+        left: 416px;
+        background-color: #FF4656;
+        width: 190px;
+        height: 182px;
+        z-index: 4;
+    }
+
+    .skill {
+        display: flex;
+        padding: 30px 50px;
+        z-index: 5;
+        position: relative;
+
+        .info {
+            width: 315px;
+
+            h1 {
+                font-family: 'Druk', sans-serif;
+                color: #C4C4C4;
+                font-size: 40px;
+            }
+    
+            h2 {
+                font-family: 'Druk', sans-serif;
+                color: #000;
+                font-size: 24px;
+                margin: 25px 0;
+            }
+    
+            p {
+                letter-spacing: 0.1em;
+            }
+        }
+
+        .icon {
+            margin-left: 100px;
+
+            svg {
+                width: 170px;
+                height: 200px;
+                path {
+                    fill: #1F2326;
+                }
+            }
+        }
+    }
+}

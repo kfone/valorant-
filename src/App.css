@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+.app_wrapper {
+  width: 2700px;
+  height: 2000px;
+  padding: 300px 200px;
+  background-color: #1F2326;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  position: relative;
+  width: 2660px;
+  box-shadow: 0 0 10px 0px #0000005c;
+  z-index: 2;
+  border-radius: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul, li {
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bg .one {
+  position: absolute;
+  width: 2215px;
+  height: 2216px;
+  left: -385px;
+  top: -711px;
+  background: #FF4656;
+  z-index: 1;
+  border-radius: 100%;
+}
+
+.bg .two {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 2836px;
+  top: 74px;
+  background: #FF4656;
+  border-radius: 100%;
+}
+
+.bg .three {
+  position: absolute;
+  width: 268px;
+  height: 269px;
+  left: 2727px;
+  top: 182px;
+  background: #EFEFEF;
+  border-radius: 100%;
+}
+
+.bg .four {
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  left: 2946px;
+  top: 475px;
+  background: #505155;
+  border-radius: 100%;
+}
+
+.bg .five {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  left: 2018px;
+  top: 1392px;
+  background: #292C31;
+  border-radius: 100%;
+}
+
+.bg .six {
+  position: absolute;
+  width: 470px;
+  height: 470px;
+  left: 177px;
+  top: 2114px;
+  background: #EFEFEF;
+  border-radius: 100%;
+}
+
+.bg .seven {
+  position: absolute;
+  width: 63px;
+  height: 63px;
+  left: 112px;
+  top: 2082px;
+  background: #505155;
+  border-radius: 100%;
+}
+
+.bg .eight {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 1049px;
+  top: 445px;
+  background: #1F2326;
+  opacity: 0.5;
+  z-index: 5;
+}
+
+.bg .ten {
+  position: absolute;
+  width: 232px;
+  height: 8px;
+  left: 320px;
+  top: 1603px;
+  background: #1F2326;
+  opacity: 0.5;
+  z-index: 5;
+}
+
+.bg .eleven {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 318px;
+  top: 1445px;
+  background: #1F2326;
+  opacity: 0.5;
+  z-index: 5;
 }
 
-.App-link {
-  color: #61dafb;
+.bg .twelve {
+  position: absolute;
+  width: 80px;
+  height: 8px;
+  left: 324px;
+  top: 1536px;
+  background: #1F2326;
+  opacity: .5;
+  z-index: 5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg .threeteen {
+  position: absolute;
+  width: 80px;
+  height: 8px;
+  left: 318px;
+  top: 1550px;
+  background: #1F2326;
+  opacity: .5;
+  z-index: 5;
 }
